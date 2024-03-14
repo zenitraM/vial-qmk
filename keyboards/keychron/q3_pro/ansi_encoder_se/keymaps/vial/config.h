@@ -1,0 +1,13 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+#pragma once
+
+
+#define VIAL_KEYBOARD_UID {0x86, 0x84, 0x8A, 0x19, 0x4F, 0xFE, 0x65, 0x35}
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+
+#define VIAL_UNLOCK_COMBO_ROWS { 1, 2 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 13 }
+
+#define WEAR_LEVELING_LOGICAL_SIZE 10000
+#define WEAR_LEVELING_BACKING_SIZE (WEAR_LEVELING_LOGICAL_SIZE * 2)
